@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-generator-cli",
+  "version": "1.0.0",
+  "description": "Command-line tool that generates a styled HTML portfolio page from user input.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "portfolio",
+    "generator",
+    "node",
+    "inquirer",
+    "html"
+  ],
+  "author": "Antonio Sinues",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "8.2.4"
+  }
+}
