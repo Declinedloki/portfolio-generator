@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antonio Sinues | Portfolio</title>
+  <style>
+    :root { --primary:#1f3c88; --accent:#4cafef; --light:#f6f8fb; --dark:#1a1a1a; --card:#fff; --border:#dbe3ee; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; background:var(--light); color:var(--dark); line-height:1.6; }
+    header { background:linear-gradient(135deg, var(--primary), #12285f); color:#fff; padding:3rem 1.5rem; text-align:center; }
+    nav { background:#fff; border-bottom:1px solid var(--border); }
+    nav ul { display:flex; justify-content:center; flex-wrap:wrap; list-style:none; margin:0; padding:.75rem 1rem; gap:1rem; }
+    nav a { text-decoration:none; color:var(--primary); font-weight:bold; }
+    main { max-width:1000px; margin:0 auto; padding:2rem 1.25rem 3rem; }
+    section { background:var(--card); margin-bottom:1.5rem; padding:1.5rem; border-radius:14px; box-shadow:0 6px 18px rgba(0,0,0,.06); border:1px solid var(--border); }
+    h2 { color:var(--primary); margin-top:0; border-bottom:2px solid var(--accent); padding-bottom:.5rem; display:inline-block; }
+    .contact-links a { display:inline-block; margin-right:1rem; color:var(--primary); text-decoration:none; font-weight:bold; }
+    .info-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:1rem; }
+    .info-card { background:#f8fbff; border:1px solid var(--border); border-radius:12px; padding:1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Antonio Sinues</h1>
+    <p>Student Developer</p>
+    <p>Conway, Arkansas</p>
+    <p><a href="mailto:antonio@example.com" style="color:white;">antonio@example.com</a></p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="info-grid">
+        <div class="info-card"><strong>Name:</strong><p>Antonio Sinues</p></div>
+        <div class="info-card"><strong>Profession:</strong><p>Student Developer</p></div>
+        <div class="info-card"><strong>Location:</strong><p>Conway, Arkansas</p></div>
+      </div>
+      <p>Motivated student developer with experience building front-end applications, algorithm assignments, and responsive web projects. Passionate about learning, problem solving, and creating polished work for academic and professional use.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>Node.js</li>
+        <li>GitHub</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>SmartWeather Dashboard</li>
+        <li>Portfolio Generator CLI</li>
+        <li>Task Reminder App</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/antonio-sinues" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/Declinedloki" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:antonio@example.com">Email Me</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
